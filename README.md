@@ -83,3 +83,16 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 如果你想使一段话中部分文字高亮显示，来起到突出强调的作用，可以把它用 \` \` 包围起来。
+
+#⑤插入表格
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+#⑥以上基本够用了，不会的就用html标签。
+
+markdown支持大部分的html文本编辑标签。例如换行，用<br>等。但markdown有些标签写起来要简洁得多。附：[markdown支持的html标签](https://github.com/github/markup/tree/master#html-sanitization)。
+
+####以上资料来源于[jingwhale博客]("http://www.cnblogs.com/jingwhale/p/4223657.html")
