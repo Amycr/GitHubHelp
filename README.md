@@ -79,7 +79,7 @@ ___
 
 这是一段普通的文本
 
-####关于换行
+###关于换行
 
 回车不能换行，可以使用\<br>。但是使用html标签就丧失了markdown的意义。  可以在上一行文本后面补两个空格，  
 这样下一行的文本就换行了。
@@ -103,17 +103,17 @@ ___
 
 Hello,`World`.
 
-####删除线
+###删除线
 需要删除线显示的文字用\~~\~~包裹起来:\~~文本\~~
 
 这是一个 ~~删除线~~
 
-####斜体
+###斜体
 需要斜体显示的文字用\*\*或\_\_包裹起来:\*文本\*或\_文本\_
 
 *斜体1*  _斜体2_
 
-####粗体
+###粗体
 需要粗体显示的文字用\*\*\*\*或\_\_\_\_包裹起来:\*\*文本\*\*或\_\_文本\_\_
 
 **粗体1**  __粗体2__
@@ -121,7 +121,7 @@ Hello,`World`.
 <a name="link"/>
 #④链接
 
-####链接外部URL
+###链接外部URL
 ▪要显示一个超链接的话，就直接输入这个链接的URL
 
 ▪给一段文字加入超链接的格式：\[要显示的文字\](链接的地址 "悬停显示的字")。"悬停显示的字"是可选项。
@@ -134,14 +134,14 @@ Hello,`World`.
 
 "悬停显示的字"是可选项。中括号\[\]里的id，可以是数字，字母。这两行可以不连着写，一般把第二行的链接统一放在文章末尾，id上下对应就行了。这样正文看起来会比较干净。
 
-https://www.google.com/?gws_rd=ssl
+https://github.com/
 
-[谷歌](https://www.google.com/?gws_rd=ssl)
+[GitHub](https://github.com/)
 
-[谷歌](https://www.google.com/?gws_rd=ssl "点击链接跳转到谷歌")
+[GitHub](https://github.com/ "点击链接跳转到GitHub")
 
-[谷歌][1]
-[1]:https://www.google.com/?gws_rd=ssl "点击链接跳转到谷歌"
+[GitHub][1]
+[1]:https://github.com/ "点击链接跳转到GitHub"
 
 ###链接本仓库里的URL
 
@@ -176,8 +176,8 @@ https://github.com/你的用户名/你的项目名/raw/分支名/存放图片的
 [![image]](http://dl.bizhi.sogou.com/images/2015/05/13/1171967.jpg)
 [image]:http://dl.bizhi.sogou.com/images/2015/05/13/1171967.jpg "阳光下的女孩"
 
-<a name="dot"/>
-#列表
+<a name="list"/>
+#⑥列表
 ▪插入圆点符，在文字前加\*，要注意的是星号* 后面要有一个空格。否则显示为普通星号。此外还有二级圆点和三级圆点。就是多加一个Tab。第二行一个Tab，第三行两个Tab。
 
 * 前端开发
@@ -188,6 +188,7 @@ https://github.com/你的用户名/你的项目名/raw/分支名/存放图片的
 
 
 ###数字列表
+
 ####一般效果
 就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。    
 面向对象的三个基本特征：
@@ -222,7 +223,8 @@ https://github.com/你的用户名/你的项目名/raw/分支名/存放图片的
 - [x] Java
 - [ ] C#
 
-##<a name="blockquotes"/>块引用
+<a name="reference"/>
+#⑦块引用
 
 ###常用于引用文本
 ####文本摘自《深入理解计算机系统》P27
@@ -240,7 +242,7 @@ https://github.com/你的用户名/你的项目名/raw/分支名/存放图片的
 
 
 <a name="code">
-#插入代码
+#⑧插入代码
 我们需要在代码的上一行和下一行用\`\`\` 标记。第一行后可加语言，可加亮代码。\`\`\` 不是三个单引号，而是数字1左边，Tab键上面的键。 示例如下：
 ```ruby
 require 'redcarpet'
@@ -266,7 +268,7 @@ string &operator+(const string& A,const string& B) //cpp
 如果你想使一段话中部分文字高亮显示，来起到突出强调的作用，可以把它用 \` \` 包围起来。
 
 <a name="table">
-#⑤插入表格
+#⑨插入表格
 
 | First Header  | Second Header |
 | ------------- | ------------- |
@@ -298,15 +300,13 @@ string &operator+(const string& A,const string& B) //cpp
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
-
-##<a name="emoji"/>添加表情
+<a name="expression"/>
+#⑩表情
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
 比如`:blush:`，可以显示:blush:。
 
 具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
-
-但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 
 
 ####说明
