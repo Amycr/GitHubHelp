@@ -2,11 +2,11 @@
 GitHub help,About README.md help
 
 #目录
-* 关于标题(#title)
-* 显示文本(#text)
-* 插入图片(#image)
-* 插入代码(#code)
-* 插入表格(#table)
+* [关于标题](#title)
+* [显示文本](#text)
+* [插入图片](#image)
+* [插入代码](#code)
+* [插入表格](#table)
 
 <a name="title"/>
 ①关于标题
