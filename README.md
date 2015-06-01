@@ -1,4 +1,4 @@
-# GitHubHelp
+﻿# GitHubHelp
 GitHub help,About README.md help
 
 
@@ -28,3 +28,29 @@ GitHub help,About README.md help
 #####五级标题
 
 ######六级标题
+
+实际上，前文所述的大标题和中标题是分别和一级标题和二级标题对应的。三到六级没有下面的横线。
+
+
+②显示文本
+=
+
+▪要显示一个超链接的话，就直接输入这个链接的URL
+
+▪给一段文字加入超链接的格式：[ 要显示的文字]( 链接的地址"悬停显示的字")。"悬停显示的字"是可选项。
+
+▪插入圆点符，在文字前加*，要注意的是星号* 后面要有一个空格。否则显示为普通星号。此外还有二级圆点和三级圆点。就是多加一个Tab。第二行一个Tab，第三行两个Tab。
+
+
+http://www.google.com.hk/?gws_rd=ssl,cr
+
+[谷歌](http://www.google.com.hk/?gws_rd=ssl,cr)
+
+[谷歌](http://www.google.com.hk/?gws_rd=ssl,cr "点击链接跳转到谷歌")
+
+* 前端开发
+* 	javascript*jquery
+*	html
+* 	css
+* 		html5
+
