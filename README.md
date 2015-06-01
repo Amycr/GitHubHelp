@@ -105,4 +105,4 @@ puts markdown.to_html
 
 markdown支持大部分的html文本编辑标签。例如换行，用\<br\>等。但markdown有些标签写起来要简洁得多。附：[markdown支持的html标签](https://github.com/github/markup/tree/master#html-sanitization)。
 
-####以上资料来源于[jingwhale博客](http://www.cnblogs.com/jingwhale/p/4223657.html) [Jelly-GitHub](https://github.com/guodongxiaren/README/blob/master/README.md)
+####以上资料来源于[jingwhale博客](http://www.cnblogs.com/jingwhale/p/4223657.html)和 [Jelly-GitHub](https://github.com/guodongxiaren/README/blob/master/README.md)
