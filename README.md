@@ -240,15 +240,29 @@ https://github.com/你的用户名/你的项目名/raw/分支名/存放图片的
 
 
 <a name="code">
-④插入代码
-=
-
+#插入代码
 我们需要在代码的上一行和下一行用\`\`\` 标记。第一行后可加语言，可加亮代码。\`\`\` 不是三个单引号，而是数字1左边，Tab键上面的键。 示例如下：
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+```Java
+public static void main(String[]args){} //Java
+```
+```c
+int main(int argc, char *argv[]) //C
+```
+```Bash
+echo "hello GitHub"#Bash
+```
+```javascript
+document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+```
+```cpp
+string &operator+(const string& A,const string& B) //cpp
+```
+
 如果你想使一段话中部分文字高亮显示，来起到突出强调的作用，可以把它用 \` \` 包围起来。
 
 <a name="table">
@@ -258,6 +272,42 @@ puts markdown.to_html
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+
+| 表头1  | 表头2|
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| 名字 | 描述          |
+| ------------- | ----------- |
+| Help      | Display the help window.|
+| Close     | Closes a window     |
+
+表格中也可以使用普通文本的删除线，斜体等效果
+
+| 名字 | 描述          |
+| ------------- | ----------- |
+| Help      | ~~Display the~~ help window.|
+| Close     | _Closes_ a window     |
+
+表格可以指定对齐方式
+
+| 左对齐 | 居中  | 右对齐 |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+
+##<a name="emoji"/>添加表情
+Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
+
+比如`:blush:`，可以显示:blush:。
+
+具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
+
+但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
+
 
 ####说明
 
