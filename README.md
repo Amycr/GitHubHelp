@@ -31,6 +31,7 @@ GitHub help,About README.md help:How to write the README. Md.
 * [插入代码](#code)
 * [插入表格](#table)
 * [表情](#expression)
+* [说明](#instructions)
 
 <a name="title"/>
 ①关于标题
@@ -309,6 +310,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
 
 
+<a name="instructions">
 ####说明
 
 markdown支持大部分的html文本编辑标签。例如换行，用\<br\>等。但markdown有些标签写起来要简洁得多。附：[markdown支持的html标签](https://github.com/github/markup/tree/master#html-sanitization)。
