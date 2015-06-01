@@ -1,14 +1,14 @@
 ﻿# GitHubHelp
-GitHub help,About README.md help
+GitHub help,About README.md help:How to write the README. Md.
 
 #目录
-* [关于标题](#title)
+* [关于标题](.title)
 * [显示文本](#text)
 * [插入图片](#image)
 * [插入代码](#code)
 * [插入表格](#table)
 
-<a name="title"/>
+<a id="title"/>
 ①关于标题
 =
 
