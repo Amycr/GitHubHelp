@@ -1,7 +1,14 @@
 ﻿# GitHubHelp
 GitHub help,About README.md help
 
+#目录
+* 关于标题(#title)
+* 显示文本(#text)
+* 插入图片(#image)
+* 插入代码(#code)
+* 插入表格(#table)
 
+<a name="title"/>
 ①关于标题
 =
 
@@ -31,7 +38,7 @@ GitHub help,About README.md help
 
 实际上，前文所述的大标题和中标题是分别和一级标题和二级标题对应的。三到六级没有下面的横线。
 
-
+<a name="text"/>
 ②显示文本
 =
 
@@ -54,6 +61,7 @@ https://www.google.com/?gws_rd=ssl
   * css
     * html5
 
+<a name="image">
 ③插入图片
 =
 
@@ -73,6 +81,7 @@ https://github.com/你的用户名/你的项目名/raw/分支名/存放图片的
 
 ![](images/girl.jpg "阳光下的女孩")
 
+<a name="code">
 ④插入代码
 =
 
@@ -84,6 +93,7 @@ puts markdown.to_html
 ```
 如果你想使一段话中部分文字高亮显示，来起到突出强调的作用，可以把它用 \` \` 包围起来。
 
+<a name="table">
 #⑤插入表格
 
 | First Header  | Second Header |
@@ -93,6 +103,6 @@ puts markdown.to_html
 
 ####说明
 
-markdown支持大部分的html文本编辑标签。例如换行，用<br>等。但markdown有些标签写起来要简洁得多。附：[markdown支持的html标签](https://github.com/github/markup/tree/master#html-sanitization)。
+markdown支持大部分的html文本编辑标签。例如换行，用\<br\>等。但markdown有些标签写起来要简洁得多。附：[markdown支持的html标签](https://github.com/github/markup/tree/master#html-sanitization)。
 
 ####以上资料来源于[jingwhale博客](http://www.cnblogs.com/jingwhale/p/4223657.html)
