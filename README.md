@@ -14,13 +14,13 @@ GitHub help,About README.md help:How to write the README. Md.
  * 文字高亮
 * [链接](#link)
  * 文字超链接
-  * 链接外部URL
-  * 链接本仓库里的URL
+   * 链接外部URL
+   * 链接本仓库里的URL
  * 锚点
 * [插入图片](#image)
  * 显示图片
-  * 来源于网络的图片
-  * GitHub仓库中的图片
+   * 来源于网络的图片
+   * GitHub仓库中的图片
  * 图片超链接
 * [列表](#list)
  * 圆点列表
