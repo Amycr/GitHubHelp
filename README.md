@@ -126,8 +126,11 @@ Hello,`World`.
 ▪给一段文字加入超链接的格式：\[要显示的文字\](链接的地址 "悬停显示的字")。"悬停显示的字"是可选项。
 
 ▪给一段文字加入超链接的格式：
+
 \[要显示的文字\]\[id\]
-\[id\](链接的地址 "悬停显示的字")。
+
+\[id\]:链接的地址 "悬停显示的字"
+
 "悬停显示的字"是可选项。中括号\[\]里的id，可以是数字，字母。这两行可以不连着写，一般把第二行的链接统一放在文章末尾，id上下对应就行了。这样正文看起来会比较干净。
 
 https://www.google.com/?gws_rd=ssl
@@ -137,7 +140,7 @@ https://www.google.com/?gws_rd=ssl
 [谷歌](https://www.google.com/?gws_rd=ssl "点击链接跳转到谷歌")
 
 [谷歌][1]
-[1](https://www.google.com/?gws_rd=ssl "点击链接跳转到谷歌")
+[1]:https://www.google.com/?gws_rd=ssl "点击链接跳转到谷歌"
 
 ###链接本仓库里的URL
 [Book](./Book)
